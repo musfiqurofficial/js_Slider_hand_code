@@ -1,0 +1,22 @@
+#container{
+    width: 960px;
+    margin: 100px auto;
+}
+#container .slider-item img{
+    width: 100%;
+}
+.slider{
+    position: relative;
+}
+.slider .slider-item{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    transition: all 1s;
+}
+
+
+.slider .slider-item.active{
+    opacity: 1;
+}
+
